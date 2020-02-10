@@ -2,11 +2,13 @@ import time
 import pandas as pd
 import numpy as np
 
+
+
+def get_filters():
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
-def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -21,7 +23,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
 
-    while True:
+    while city True:
       city = input("\nPlease enter a city you want to explore. Chicago, New York City, Washington:\n").lower()
       if city not in (CITY_DATA): #'New York City', 'Chicago', 'Washington'):
         print("Sorry, I didn't catch that. Try again.")
