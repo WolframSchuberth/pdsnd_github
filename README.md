@@ -15,5 +15,5 @@ washington.csv
 
 ### Credits
 single source of truth www.udacity.com <3
-
+but sometimes you have to use www.google.com
 
