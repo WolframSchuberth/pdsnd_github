@@ -5,10 +5,13 @@ Created on 10th Feb. 2020
 Bikeshare project 
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare project is about a tool which supports the user to run some crazy analyses
 
 ### Files used
-Include the files used
+Following data files are substantial to run the tool:
+chicago.csv
+new_york_city.csv
+washington.csv 
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
